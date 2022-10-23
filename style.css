@@ -1,0 +1,78 @@
+body,
+div,
+input {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #ededed;
+}
+
+h1{
+    text-align: center;
+    font-family: sans-serif;
+    color: #292929;
+}
+
+canvas {
+    border: 1px solid rgba(41, 41, 41, 0.5);
+}
+
+.editor {
+    margin: 30px;
+    background: #fff;
+    width: fit-content;
+    margin: auto;
+    margin-top: 50px;
+}
+
+.editor > div{
+    padding: 10px;
+    background-color: #48C9B0;
+}
+
+#lw {
+    -webkit-appearance: none;
+    width: 390px;
+    height: 15px;
+    border-radius: 5px;
+    background: #d3d3d3;
+    outline: none;
+    opacity: 0.7;
+    -webkit-transition: .2s;
+    transition: opacity .2s;
+}
+
+#lw::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    appearance: none;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background: #a4f3eb;
+    cursor: pointer;
+    box-shadow: 0px 0px 11px 8px rgba(0, 0, 0, 0.26);
+    background: url(https://www.flaticon.com/svg/vstatic/svg/59/59089.svg?token=exp=1614064733~hmac=a6f0cce2214fdb52e7df9eec24006427) #75b4c3;
+    background-size: 45%;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+#lw::-moz-range-thumb {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background: #a4f3eb;
+    cursor: pointer;
+    box-shadow: 0px 0px 11px 8px rgba(0, 0, 0, 0.26);
+    background: url(https://www.flaticon.com/svg/vstatic/svg/59/59089.svg?token=exp=1614064733~hmac=a6f0cce2214fdb52e7df9eec24006427) #75b4c3;
+    background-size: 45%;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+#color {
+    width: 90px;
+}
